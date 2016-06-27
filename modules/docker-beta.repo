@@ -1,0 +1,8 @@
+tee /etc/yum.repos.d/docker.repo <<-'EOF'
+[docker-beta-repo]
+name=Docker Experimental Repository
+baseurl=https://yum.dockerproject.org/repo/experimental/fedora/$releasever/
+enabled=1
+gpgcheck=1
+gpgkey=https://yum.dockerproject.org/gpg
+EOF
