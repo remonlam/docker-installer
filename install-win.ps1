@@ -20,6 +20,7 @@ Start-Service docker
 # Download the Windows image (download size is 9.4GB)
 Install-PackageProvider ContainerImage -Force
 Install-ContainerImage -Name WindowsServerCore
+Install-ContainerImage -Name NanoServer
 
 # Restart Docker service
 Restart-Service docker
