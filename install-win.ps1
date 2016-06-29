@@ -30,3 +30,6 @@ docker info
 
 # Show images
 docker images
+
+# Rename image version "windowservercore" to latest
+docker tag windowsservercore:10.0.14300.1000 windowsservercore:latest
