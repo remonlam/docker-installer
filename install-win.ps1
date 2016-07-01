@@ -22,6 +22,9 @@ Install-PackageProvider ContainerImage -Force
 Install-ContainerImage -Name WindowsServerCore
 Install-ContainerImage -Name NanoServer
 
+# https://msdn.microsoft.com/en-us/virtualization/windowscontainers/deployment/deployment
+# https://msdn.microsoft.com/en-us/virtualization/windowscontainers/deployment/deployment_nano
+
 # Restart Docker service
 Restart-Service docker
 
