@@ -13,7 +13,7 @@ gpgkey=https://yum.dockerproject.org/gpg
 EOF
 
 # Install the Docker Engine
-dnf install docker-engine
+dnf install -y docker-engine
 
 # Enable the Docker service;
 systemctl enable docker.service
