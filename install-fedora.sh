@@ -28,8 +28,8 @@ docker version
 docker run hello-world
 
 # Stop and remove ContainerImage;
-docker stop $(docker ps -q)
-docker rm $(docker ps -q)
+docker stop $(docker ps -a -q)
+docker rm $(docker ps -a -q)
 
 # Remove image;
 docker rmi $(docker images -q)
